@@ -18,7 +18,6 @@ A free, open-source collection of Geometry Node-based VFX tools for Blender. Dra
 ## Requirements
 
 - **Blender 5.1 or later**
-- For full rendering support (optional): [Flip Fluids](https://rlens.com/) addon
 
 ## Download & Install
 
@@ -53,7 +52,8 @@ Store the cloned folder in a permanent location as described above.
 5. Click the **`+`** (Add) button
 6. Navigate to the **`assets`** folder inside the extracted/cloned `mf-assets` directory and confirm
 7. The library will appear in the list — you can rename it to **MF Assets** if you like
-8. Close the Preferences window
+8. **Set the import mode to Append:** In the same Asset Libraries section, look for the import method dropdown next to the library entry and set it to **Append** (not Link)
+9. Close the Preferences window
 
 You should now see a **MF Assets** (or `_MF Assets`) entry in the dropdown at the top of the **Asset Browser** editor.
 

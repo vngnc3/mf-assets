@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "asset_size_bytes": 3241773,
+  "asset_count": 22,
+  "file_count": 2,
+  "pages": [
+    {
+      "url": "_v1/assets-00000.json",
+      "hash": "SHA256:eca494a784e695accf24e72eb7f82b37dac666cc32c141e5f7d3f1a25677428c"
+    }
+  ],
+  "catalogs": [
+    {
+      "path": "_MF Assets",
+      "uuids": [
+        "d8639a28-9c55-4f12-a27f-dce1ee7e8037"
+      ],
+      "simple_name": "_MF Assets"
+    }
+  ]
+}

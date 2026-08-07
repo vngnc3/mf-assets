@@ -2,7 +2,7 @@
   "api_versions": {
     "v1": {
       "url": "_v1/asset-index.json",
-      "hash": "SHA256:91f5e5f7e5f867bb04b07b8106575258620fd904fd2f2539523f15c90a6920af"
+      "hash": "SHA256:ce234e66f86490c0308a626bc97fa60ef6ac33c07e8b6a08bb377b0a144b6a72"
     }
   },
   "name": "mf-assets",
@@ -12,4 +12,3 @@
     "email": "hello@mata.bot"
   }
 }
-

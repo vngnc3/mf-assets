@@ -1,27 +1,53 @@
 # Mata Foundry™ Digital Assets
 
-A free, open-source collection of Geometry Node-based VFX tools for Blender. Drag-and-drop camera rigs, cloth utilities, hair effects, rain simulations, and more directly into your scene from Blender's Asset Browser.
+A free, open-source collection of Geometry Node-based VFX tools for Blender. Drag-and-drop camera rigs, cloth utilities, hair effects, cloud and rock generators, rain simulations, and more directly into your scene from Blender's Asset Browser.
+
+**Now available as an online asset library** — with Blender 5.2+ you can install the whole library in under a minute. No ZIP, no terminal, no file management. Assets are downloaded on demand the first time you use them, then cached locally.
 
 ## Included Assets
 
 | Asset | Type | Description |
 |---|---|---|
-| Camera Alexa 65 Anamorphic | Camera | ARRI Alexa 65 cinema camera rig with anamorphic lens |
+| Camera Alexa 65 Anamorphic | Camera | Production-ready ARRI Alexa 65 medium format camera rig with anamorphic lens |
+| Camera IMAX 70 Anamorphic | Camera | Production-ready IMAX 70 large format camera rig with anamorphic lens |
 | Detangle Cloth | Cloth | Detangles points against a collider object without simulation |
+| Fake Cloud | Geometry | Procedural cloud generator |
 | Fake Wind Cloth | Cloth | Noise-based wind effect for cloth meshes without simulation |
 | Fake Wind Hair Curves | Hair | Noise-based wind effect for hair curves without simulation |
+| Generate Rock | Geometry | Procedural rock generator |
+| Point Velocity | Utility | Calculates point velocity from a deforming geometry (requires constant point count) |
+| Points to Liquid Mesh | Geometry | Meshes a set of points into a liquid-like surface using SDF |
 | Rainy Surface | Geometry | Generates and simulates raindrops on a surface |
 | Rainy Surface Material | Material | Rainy surface shader that accepts attributes from the Rainy Surface geometry nodes |
-| Points to Liquid Mesh | Geometry | Meshes a set of points into a liquid-like surface using SDF |
-| Point Velocity | Utility | Calculates point velocity from a deforming geometry (requires constant point count) |
+| Random Rotation | Utility | Returns a uniformly distributed random rotation \* |
+
+\* Random Rotation is Blender Foundation's own CC0 asset, bundled inside the library file for convenience.
 
 ## Requirements
 
-- **Blender 5.1 or later**
+- **Blender 5.2 or later**
 
 ## Download & Install
 
-### Option A — Download as ZIP (recommended for most users)
+### Option A — Online Asset Library (recommended, Blender 5.2+)
+
+The fastest way to get the assets. Blender talks directly to the library over the internet and downloads assets on demand — nothing to download, extract, or maintain.
+
+1. Open Blender 5.2 or later
+2. Go to **Edit → Preferences** (macOS: **Blender → Preferences**)
+3. Click **Asset Libraries** in the left sidebar
+4. Click the **`+`** (Add) button, choose **Online Library**, and paste:
+
+   ```
+   https://blender.mata.bot
+   ```
+
+5. Make sure **Allow Internet Access** is enabled in **Preferences → System → Network**
+6. Close the Preferences window
+
+The **MF Assets** library now appears in the Asset Browser dropdown. Drag any asset into your scene — Blender downloads it the first time you use it, then keeps it cached locally, so the library works offline afterwards too.
+
+### Option B — Download as ZIP
 
 1. Go to the [repository page on GitHub](https://github.com/vngnc3/mf-assets)
 2. Click the green **`<> Code`** button near the top-right
@@ -33,7 +59,7 @@ A free, open-source collection of Geometry Node-based VFX tools for Blender. Dra
 
 > **Important:** Do **not** extract it into a temporary folder like Downloads or Desktop. Blender needs to reference these files every time you use the assets, so the folder must stay in a fixed location.
 
-### Option B — Clone with Git
+### Option C — Clone with Git
 
 > Using clone is recommended if you are comfortable with the terminal — updates are a single command.
 
@@ -44,6 +70,8 @@ git clone https://github.com/vngnc3/mf-assets.git
 Store the cloned folder in a permanent location as described above.
 
 ## Setting Up the Asset Library in Blender
+
+*(For ZIP/Git installs — the online library from Option A needs no setup.)*
 
 1. Open Blender
 2. Go to **Edit → Preferences** (macOS: **Blender → Preferences**)
@@ -70,6 +98,10 @@ You should now see a **MF Assets** (or `_MF Assets`) entry in the dropdown at th
 > **Why Append?** Append makes a full, independent copy of the asset in your scene. Link creates a reference to the library file, which can cause issues if the library file is moved or updated. For these tools, Append is the correct and safest option.
 
 ## Updating
+
+### Online library
+
+Blender syncs the library listing automatically (roughly once a day). Restart Blender or refresh the library to pick up new assets.
 
 ### If you cloned with Git
 

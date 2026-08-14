@@ -1,5 +1,5 @@
 {
-  "asset_count": 12,
+  "asset_count": 15,
   "file_count": 1,
   "assets": [
     {
@@ -21,6 +21,105 @@
         "description": "Rainy surface material accepting attributes from Rainy Surface geometry nodes.",
         "license": "MIT",
         "copyright": "Mata Foundry"
+      }
+    },
+    {
+      "name": "Curve Cable Catenary from Edges",
+      "id_type": "NODETREE",
+      "files": [
+        "fx_mfAssets_main_online.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "fx_mfAssets_main_online_thumbnails/Nodetree/curve-cable-catenary-from-edges.webp",
+        "hash": "SHA256:ed6bb8d3776f56b949a3317bd0d2bf0b6638b5e9cfb27aeaee5c3ce5c4cd3fc7"
+      },
+      "meta": {
+        "catalog_id": "d8639a28-9c55-4f12-a27f-dce1ee7e8037",
+        "author": "izzy",
+        "description": "Deform a mesh with vertices and edges with catenary math for natural cable shape",
+        "license": "MIT",
+        "copyright": "Mata Foundry",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
+          }
+        ]
+      }
+    },
+    {
+      "name": "Curve Cable Children",
+      "id_type": "NODETREE",
+      "files": [
+        "fx_mfAssets_main_online.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "fx_mfAssets_main_online_thumbnails/Nodetree/curve-cable-children.webp",
+        "hash": "SHA256:7ead19808663f34ed8d34f4789fabbe6e8bd50d66a0bcca0dfdcca2105e1c096"
+      },
+      "meta": {
+        "catalog_id": "d8639a28-9c55-4f12-a27f-dce1ee7e8037",
+        "author": "izzy",
+        "description": "Create drooping and twisting children for cable curves",
+        "license": "MIT",
+        "copyright": "Mata Foundry",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
+          }
+        ]
+      }
+    },
+    {
+      "name": "Curve Cable Meshing",
+      "id_type": "NODETREE",
+      "files": [
+        "fx_mfAssets_main_online.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "fx_mfAssets_main_online_thumbnails/Nodetree/curve-cable-meshing.webp",
+        "hash": "SHA256:d195381b95dbb3c294af21c95c27541e81162f8a69a65fa9de12b0130011db0f"
+      },
+      "meta": {
+        "catalog_id": "d8639a28-9c55-4f12-a27f-dce1ee7e8037",
+        "author": "izzy",
+        "description": "Mesh curve geometry as cable",
+        "license": "MIT",
+        "copyright": "Mata Foundry",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
+          }
+        ]
       }
     },
     {
@@ -301,8 +400,12 @@
       "bl_versions": {
         "min": "5.2"
       },
+      "thumbnail": {
+        "url": "fx_mfAssets_main_online_thumbnails/Nodetree/random-rotation.webp",
+        "hash": "SHA256:6274bf1768fb7cb2f64b22d248ba2338b94062947ffef6e4740e7624ee91016e"
+      },
       "meta": {
-        "catalog_id": "b8945cf7-3045-4675-aae3-0b0eba853415",
+        "catalog_id": "d8639a28-9c55-4f12-a27f-dce1ee7e8037",
         "description": "Returns a uniformly distributed random rotation",
         "license": "CC0 - Public Domain",
         "copyright": "Blender Foundation",
@@ -361,8 +464,8 @@
   "files": [
     {
       "path": "fx_mfAssets_main_online.blend",
-      "size_in_bytes": 1021023,
-      "hash": "SHA256:e8bc3eb986b05c8130a8a8b9866cfc9eb264382a07c0623a5d1448ec7ad8e34b",
+      "size_in_bytes": 1132494,
+      "hash": "SHA256:451563ea27e517e919964c2a3e6b4ad366fd91a15e2149fde21c78b4afa9cb40",
       "blender_version": "5.2.44"
     }
   ]

@@ -464,8 +464,8 @@
   "files": [
     {
       "path": "fx_mfAssets_main_online.blend",
-      "size_in_bytes": 1132494,
-      "hash": "SHA256:451563ea27e517e919964c2a3e6b4ad366fd91a15e2149fde21c78b4afa9cb40",
+      "size_in_bytes": 1134312,
+      "hash": "SHA256:91fe95067efd7f8912728305008960d22d9449dead86d37082ea80fee530b6fe",
       "blender_version": "5.2.44"
     }
   ]

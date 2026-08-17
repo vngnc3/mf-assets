@@ -1,5 +1,5 @@
 {
-  "asset_count": 15,
+  "asset_count": 16,
   "file_count": 1,
   "assets": [
     {
@@ -419,6 +419,39 @@
       }
     },
     {
+      "name": "Volumetric Remesh",
+      "id_type": "NODETREE",
+      "files": [
+        "fx_mfAssets_main_online.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "fx_mfAssets_main_online_thumbnails/Nodetree/volumetric-remesh.webp",
+        "hash": "SHA256:6383a7e52ad3c8802f01906e6fe65770813573b756be198fc926e4cc7aade90a"
+      },
+      "meta": {
+        "catalog_id": "d8639a28-9c55-4f12-a27f-dce1ee7e8037",
+        "author": "izzy",
+        "description": "Remesh a geometry stream using SDF grid method.",
+        "license": "MIT",
+        "copyright": "Mata Foundry",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
+          }
+        ]
+      }
+    },
+    {
       "name": "Camera.Alexa65.Anamorphic",
       "id_type": "OBJECT",
       "files": [
@@ -464,8 +497,8 @@
   "files": [
     {
       "path": "fx_mfAssets_main_online.blend",
-      "size_in_bytes": 1134312,
-      "hash": "SHA256:91fe95067efd7f8912728305008960d22d9449dead86d37082ea80fee530b6fe",
+      "size_in_bytes": 1513064,
+      "hash": "SHA256:4f7cfa843210173dbe15769afecefa9bcdc5295d2fcb2fb2882d2819e20145ed",
       "blender_version": "5.2.44"
     }
   ]

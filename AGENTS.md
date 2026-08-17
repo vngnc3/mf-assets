@@ -4,11 +4,14 @@
 
 `mf-assets` is a free, open-source (MIT) Blender asset library of Geometry Node-based VFX tools — camera rigs, cloth sims, hair effects, and more. The product is a `.blend` file with embedded node graphs, distributed as a **Blender 5.2+ remote asset library** (online asset repository): users register `https://blender.mata.bot` in Blender Preferences and assets download on demand.
 
-**Deployment (live since 2026-08-07):** R2 bucket `mf-assets` (Cloudflare) → custom domain `blender.mata.bot`, synced with rclone. 12 assets, all min Blender 5.2.
+**Deployment (live since 2026-08-07):** R2 bucket `mf-assets` (Cloudflare) → custom domain `blender.mata.bot`, synced with rclone. 16 assets, all min Blender 5.2.
 
 Current assets:
 - **Camera Alexa 65 Anamorphic** — ARRI Alexa 65 cinema camera rig with anamorphic lens
 - **Camera IMAX 70 Anamorphic** — IMAX 70 cinema camera rig with anamorphic lens
+- **Curve Cable Catenary from Edges** — deforms a mesh with catenary math for natural cable shape
+- **Curve Cable Children** — drooping and twisting children for cable curves
+- **Curve Cable Meshing** — meshes curve geometry as a cable
 - **Detangle Cloth** — Geometry Nodes modifier that untangles intersecting cloth
 - **Fake Cloud** — procedural cloud generator
 - **Fake Wind Cloth** — Geometry Nodes wind simulation for cloth meshes
@@ -18,6 +21,7 @@ Current assets:
 - **Points to Liquid Mesh** — meshes a set of points into a liquid-like surface using SDF
 - **Rainy Surface** — generates and simulates raindrops on a surface
 - **Random Rotation** — utility node group for random rotation
+- **Volumetric Remesh** — remeshes a geometry stream using an SDF grid method
 - **Material.RainySurfaceAttributes** — rainy surface shader that accepts attributes from Rainy Surface
 
 ## Tech Stack

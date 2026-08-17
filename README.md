@@ -1,6 +1,6 @@
 # Mata Foundry™ Digital Assets
 
-A free, open-source collection of Geometry Node-based VFX tools for Blender. Drag-and-drop camera rigs, cloth utilities, hair effects, cloud and rock generators, rain simulations, and more directly into your scene from Blender's Asset Browser.
+A free, open-source collection of Geometry Node-based VFX tools for Blender. Drag-and-drop camera rigs, cloth utilities, hair effects, cloud and rock generators, rain simulations, cable tools, remeshing, and more directly into your scene from Blender's Asset Browser.
 
 **Now available as an online asset library** — with Blender 5.2+ you can install the whole library in under a minute. No ZIP, no terminal, no file management. Assets are downloaded on demand the first time you use them, then cached locally.
 
@@ -10,6 +10,9 @@ A free, open-source collection of Geometry Node-based VFX tools for Blender. Dra
 |---|---|---|
 | Camera Alexa 65 Anamorphic | Camera | Production-ready ARRI Alexa 65 medium format camera rig with anamorphic lens |
 | Camera IMAX 70 Anamorphic | Camera | Production-ready IMAX 70 large format camera rig with anamorphic lens |
+| Curve Cable Catenary from Edges | Geometry | Deforms a mesh with vertices and edges using catenary math for a natural cable shape |
+| Curve Cable Children | Geometry | Creates drooping and twisting children for cable curves |
+| Curve Cable Meshing | Geometry | Meshes curve geometry as a cable |
 | Detangle Cloth | Cloth | Detangles points against a collider object without simulation |
 | Fake Cloud | Geometry | Procedural cloud generator |
 | Fake Wind Cloth | Cloth | Noise-based wind effect for cloth meshes without simulation |
@@ -20,6 +23,7 @@ A free, open-source collection of Geometry Node-based VFX tools for Blender. Dra
 | Rainy Surface | Geometry | Generates and simulates raindrops on a surface |
 | Rainy Surface Material | Material | Rainy surface shader that accepts attributes from the Rainy Surface geometry nodes |
 | Random Rotation | Utility | Returns a uniformly distributed random rotation \* |
+| Volumetric Remesh | Geometry | Remeshes a geometry stream using an SDF grid method |
 
 \* Random Rotation is Blender Foundation's own CC0 asset, bundled inside the library file for convenience.
 

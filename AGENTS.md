@@ -21,6 +21,7 @@ Current assets:
 - **Points to Liquid Mesh** — meshes a set of points into a liquid-like surface using SDF
 - **Rainy Surface** — generates and simulates raindrops on a surface
 - **Random Rotation** — utility node group for random rotation
+- **Spherize** — spherizes any geometry
 - **Volumetric Remesh** — remeshes a geometry stream using an SDF grid method
 - **Material.RainySurfaceAttributes** — rainy surface shader that accepts attributes from Rainy Surface
 

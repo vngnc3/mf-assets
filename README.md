@@ -16,13 +16,16 @@ A free, open-source collection of Geometry Node-based VFX tools for Blender. Dra
 | Detangle Cloth | Cloth | Detangles points against a collider object without simulation |
 | Fake Cloud | Geometry | Procedural cloud generator |
 | Fake Wind Cloth | Cloth | Noise-based wind effect for cloth meshes without simulation |
+| Fake Wind Cloth.001 | Cloth | Noise-based wind effect for cloth meshes without simulation |
 | Fake Wind Hair Curves | Hair | Noise-based wind effect for hair curves without simulation |
 | Generate Rock | Geometry | Procedural rock generator |
+| Organic Distortion | Geometry | Animated organic distortion over a surface |
 | Point Velocity | Utility | Calculates point velocity from a deforming geometry (requires constant point count) |
 | Points to Liquid Mesh | Geometry | Meshes a set of points into a liquid-like surface using SDF |
 | Rainy Surface | Geometry | Generates and simulates raindrops on a surface |
 | Rainy Surface Material | Material | Rainy surface shader that accepts attributes from the Rainy Surface geometry nodes |
 | Random Rotation | Utility | Returns a uniformly distributed random rotation \* |
+| Spherize | Geometry | Spherizes any geometry |
 | Volumetric Remesh | Geometry | Remeshes a geometry stream using an SDF grid method |
 
 \* Random Rotation is Blender Foundation's own CC0 asset, bundled inside the library file for convenience.

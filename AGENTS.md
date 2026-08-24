@@ -4,7 +4,7 @@
 
 `mf-assets` is a free, open-source (MIT) Blender asset library of Geometry Node-based VFX tools — camera rigs, cloth sims, hair effects, and more. The product is a `.blend` file with embedded node graphs, distributed as a **Blender 5.2+ remote asset library** (online asset repository): users register `https://blender.mata.bot` in Blender Preferences and assets download on demand.
 
-**Deployment (live since 2026-08-07):** R2 bucket `mf-assets` (Cloudflare) → custom domain `blender.mata.bot`, synced with rclone. 16 assets, all min Blender 5.2.
+**Deployment (live since 2026-08-07):** R2 bucket `mf-assets` (Cloudflare) → custom domain `blender.mata.bot`, synced with rclone. 18 assets, all min Blender 5.2.
 
 Current assets:
 - **Camera Alexa 65 Anamorphic** — ARRI Alexa 65 cinema camera rig with anamorphic lens
@@ -17,6 +17,7 @@ Current assets:
 - **Fake Wind Cloth** — Geometry Nodes wind simulation for cloth meshes
 - **Fake Wind Hair Curves** — Geometry Nodes wind effect for hair curves
 - **Generate Rock** — procedural rock generator
+- **Organic Distortion** — animated organic distortion over a surface
 - **Point Velocity** — calculates point velocity from a deforming geometry (constant point count)
 - **Points to Liquid Mesh** — meshes a set of points into a liquid-like surface using SDF
 - **Rainy Surface** — generates and simulates raindrops on a surface

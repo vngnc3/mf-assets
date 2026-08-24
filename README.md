@@ -16,7 +16,6 @@ A free, open-source collection of Geometry Node-based VFX tools for Blender. Dra
 | Detangle Cloth | Cloth | Detangles points against a collider object without simulation |
 | Fake Cloud | Geometry | Procedural cloud generator |
 | Fake Wind Cloth | Cloth | Noise-based wind effect for cloth meshes without simulation |
-| Fake Wind Cloth.001 | Cloth | Noise-based wind effect for cloth meshes without simulation |
 | Fake Wind Hair Curves | Hair | Noise-based wind effect for hair curves without simulation |
 | Generate Rock | Geometry | Procedural rock generator |
 | Organic Distortion | Geometry | Animated organic distortion over a surface |

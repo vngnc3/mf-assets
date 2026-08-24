@@ -2,7 +2,7 @@
   "api_versions": {
     "v1": {
       "url": "_v1/asset-index.json",
-      "hash": "SHA256:54125d8a161422987883bee9f68d687ff56c70ed0c6857370df8d103350a3768"
+      "hash": "SHA256:8a4b0307ce4bf00ea0a53eb4111fe45314baeb8dcdbea72805da09c9e8cceed6"
     }
   },
   "name": "mf-assets",

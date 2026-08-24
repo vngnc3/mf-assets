@@ -1,5 +1,5 @@
 {
-  "asset_count": 16,
+  "asset_count": 19,
   "file_count": 1,
   "assets": [
     {
@@ -227,6 +227,39 @@
       }
     },
     {
+      "name": "Fake Wind Cloth.001",
+      "id_type": "NODETREE",
+      "files": [
+        "fx_mfAssets_main_online.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "fx_mfAssets_main_online_thumbnails/Nodetree/fake-wind-cloth001.webp",
+        "hash": "SHA256:6fc85ceb3490dd1c6faf7d0eaf9c85a99f52ff38c8335aad4e1f28af7bd2007c"
+      },
+      "meta": {
+        "catalog_id": "d8639a28-9c55-4f12-a27f-dce1ee7e8037",
+        "author": "izzy",
+        "description": "Noise-based wind effect without simulation.",
+        "license": "MIT",
+        "copyright": "Mata Foundry",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 2112
+          }
+        ]
+      }
+    },
+    {
       "name": "Fake Wind Hair Curves",
       "id_type": "NODETREE",
       "files": [
@@ -276,6 +309,39 @@
         "catalog_id": "d8639a28-9c55-4f12-a27f-dce1ee7e8037",
         "author": "izzy",
         "description": "Generate procedural rock",
+        "license": "MIT",
+        "copyright": "Mata Foundry",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
+          }
+        ]
+      }
+    },
+    {
+      "name": "Organic Distortion",
+      "id_type": "NODETREE",
+      "files": [
+        "fx_mfAssets_main_online.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "fx_mfAssets_main_online_thumbnails/Nodetree/organic-distortion.webp",
+        "hash": "SHA256:ed43177726ff5039a54246de52bd6ca71e6a2cc3fe379183114f9384c241c478"
+      },
+      "meta": {
+        "catalog_id": "d8639a28-9c55-4f12-a27f-dce1ee7e8037",
+        "author": "izzy",
+        "description": "Animated organic distortion over surface",
         "license": "MIT",
         "copyright": "Mata Foundry",
         "properties": [
@@ -419,6 +485,39 @@
       }
     },
     {
+      "name": "Spherize",
+      "id_type": "NODETREE",
+      "files": [
+        "fx_mfAssets_main_online.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "fx_mfAssets_main_online_thumbnails/Nodetree/spherize.webp",
+        "hash": "SHA256:4402f87c51b235d1a4825e2c0319aff9581540454feda5f94a6aaf73a3792267"
+      },
+      "meta": {
+        "catalog_id": "d8639a28-9c55-4f12-a27f-dce1ee7e8037",
+        "author": "izzy",
+        "description": "Spherize any geometry.",
+        "license": "MIT",
+        "copyright": "Mata Foundry",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 64
+          }
+        ]
+      }
+    },
+    {
       "name": "Volumetric Remesh",
       "id_type": "NODETREE",
       "files": [
@@ -497,8 +596,8 @@
   "files": [
     {
       "path": "fx_mfAssets_main_online.blend",
-      "size_in_bytes": 1513064,
-      "hash": "SHA256:4f7cfa843210173dbe15769afecefa9bcdc5295d2fcb2fb2882d2819e20145ed",
+      "size_in_bytes": 1937238,
+      "hash": "SHA256:fd2a7ddd493bf21ab3ed505f18439ff2b25daeed55ae5aa3aa50bfd7085da5bd",
       "blender_version": "5.2.44"
     }
   ]

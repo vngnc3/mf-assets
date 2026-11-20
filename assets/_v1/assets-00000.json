@@ -1,5 +1,5 @@
 {
-  "asset_count": 18,
+  "asset_count": 21,
   "file_count": 1,
   "assets": [
     {
@@ -21,6 +21,34 @@
         "description": "Rainy surface material accepting attributes from Rainy Surface geometry nodes.",
         "license": "MIT",
         "copyright": "Mata Foundry"
+      }
+    },
+    {
+      "name": "Compositor Film Process",
+      "id_type": "NODETREE",
+      "files": [
+        "fx_mfAssets_main_online.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "fx_mfAssets_main_online_thumbnails/Nodetree/compositor-film-process.webp",
+        "hash": "SHA256:a938949bf39b02227154a2218a00e6ef74d7fbc0e3f796334a589c85ad51a43c"
+      },
+      "meta": {
+        "catalog_id": "d8639a28-9c55-4f12-a27f-dce1ee7e8037",
+        "author": "izzy",
+        "description": "Film processing pipeline preset.",
+        "license": "MIT",
+        "copyright": "Mata Foundry",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 1
+          }
+        ]
       }
     },
     {
@@ -260,6 +288,39 @@
       }
     },
     {
+      "name": "Film Grain",
+      "id_type": "NODETREE",
+      "files": [
+        "fx_mfAssets_main_online.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "thumbnail": {
+        "url": "fx_mfAssets_main_online_thumbnails/Nodetree/film-grain.webp",
+        "hash": "SHA256:415533e9c7f3bc8e2c56a352fd983cd121c2fd0cdcbbd78c058c5bb5435cd732"
+      },
+      "meta": {
+        "catalog_id": "81249800-1dfd-4eec-9257-20019aa3ef5d",
+        "author": "Selman Vorhoff",
+        "description": "Simulates the noise and behavior of analog film",
+        "license": "CC0 - Public Domain",
+        "copyright": "Blender Foundation",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 1
+          },
+          {
+            "name": "compositor_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 1
+          }
+        ]
+      }
+    },
+    {
       "name": "Generate Rock",
       "id_type": "NODETREE",
       "files": [
@@ -452,6 +513,39 @@
       }
     },
     {
+      "name": "Smooth by Angle",
+      "id_type": "NODETREE",
+      "files": [
+        "fx_mfAssets_main_online.blend"
+      ],
+      "bl_versions": {
+        "min": "5.2"
+      },
+      "meta": {
+        "catalog_id": "9e98eca8-e987-44d3-88a1-6633d0a8ad82",
+        "description": "Set the sharpness of mesh edges based on the angle between the neighboring faces",
+        "license": "CC0 - Public Domain",
+        "copyright": "Blender Foundation",
+        "properties": [
+          {
+            "name": "type",
+            "type": "IDP_INT",
+            "value": 3
+          },
+          {
+            "name": "geometry_node_asset_traits_flag",
+            "type": "IDP_INT",
+            "value": 2112
+          },
+          {
+            "name": "node_tool_idname",
+            "type": "IDP_STRING",
+            "value": "geometry.smooth_by_angle"
+          }
+        ]
+      }
+    },
+    {
       "name": "Spherize",
       "id_type": "NODETREE",
       "files": [
@@ -518,7 +612,7 @@
       }
     },
     {
-      "name": "Camera.Alexa65.Anamorphic",
+      "name": "Camera Alexa65 Anamorphic",
       "id_type": "OBJECT",
       "files": [
         "fx_mfAssets_main_online.blend"
@@ -527,7 +621,7 @@
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "fx_mfAssets_main_online_thumbnails/Object/cameraalexa65anamorphic.webp",
+        "url": "fx_mfAssets_main_online_thumbnails/Object/camera-alexa65-anamorphic.webp",
         "hash": "SHA256:7b34203a31c54c014ab4bb422d99509cf8cb5665ef085a65fe3e6054a6780a96"
       },
       "meta": {
@@ -539,7 +633,7 @@
       }
     },
     {
-      "name": "Camera.IMAX70.Anamorphic",
+      "name": "Camera IMAX70 Anamorphic",
       "id_type": "OBJECT",
       "files": [
         "fx_mfAssets_main_online.blend"
@@ -548,7 +642,7 @@
         "min": "5.2"
       },
       "thumbnail": {
-        "url": "fx_mfAssets_main_online_thumbnails/Object/cameraimax70anamorphic.webp",
+        "url": "fx_mfAssets_main_online_thumbnails/Object/camera-imax70-anamorphic.webp",
         "hash": "SHA256:30cd3ec77757c67f433430ed3495ceff654ba39d7b6eb59ee95715c9f1333ac2"
       },
       "meta": {
@@ -563,9 +657,9 @@
   "files": [
     {
       "path": "fx_mfAssets_main_online.blend",
-      "size_in_bytes": 1923415,
-      "hash": "SHA256:ce46b82d501d5ca03a23ddc5d22ac737356a6dbca1e3c2aacec24c33e7c015aa",
-      "blender_version": "5.2.44"
+      "size_in_bytes": 2308363,
+      "hash": "SHA256:cd87d5b877f9b0c5e9b8f70c80ee0becb73cc07b210a966558194c4b7dbefc3d",
+      "blender_version": "5.2.45"
     }
   ]
 }
